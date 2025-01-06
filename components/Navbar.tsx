@@ -9,6 +9,7 @@ import Image from 'next/image'
 import logo from '../public/assets/images/logo2.png'
 import { Menu, X } from 'lucide-react'
 import { NavDropDown } from './Navdropdown'
+import { NavDropDown2 } from './Navbardropdown2'
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -20,7 +21,7 @@ const Navbar = () => {
   return (
     <div className="flex lg:flex-col w-full justify-between lg:justify-center items-center pt-8 navbar z-50 gap-8 bg-transparent px-4">
       <Link href='/' className={cn(
-            "relative dark:text-slate-50 items-center flex space-x-1 text-slate-50  hover:text-[#a9c0ff] w-[150px]"
+            "relative dark:text-slate-50 items-center flex space-x-1 text-slate-50  hover:text-[#b2b2b2] w-[150px]"
           )}>
             <div className="w-[60%] lg:w-[100%]">
             <Image 
@@ -39,17 +40,18 @@ const Navbar = () => {
           key={idx} 
           href={navItem.link}
           className={cn(
-            "relative dark:text-slate-50 items-center hidden lg:flex space-x-1 text-slate-50 hover:text-[#a9c0ff]"
+            "relative dark:text-slate-50 items-center hidden lg:flex space-x-1 text-slate-50 hover:text-[#b2b2b2]"
           )}
         >
           <span className="!cursor-pointer text-sm font-bold tracking-wide">{navItem.name}</span>
         </Link>
       ))}
+    <NavDropDown2 />
     <NavDropDown />
         <Link 
           href='/'
           className={cn(
-            "relative dark:text-slate-50 items-center hidden lg:flex space-x-1 text-slate-50 hover:text-[#a9c0ff]"
+            "relative dark:text-slate-50 items-center hidden lg:flex space-x-1 text-slate-50 hover:text-[#b2b2b2]"
           )}
         >
           <span className="!cursor-pointer text-sm font-bold tracking-wide">CONTACT</span>
