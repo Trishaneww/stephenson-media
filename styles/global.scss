@@ -309,3 +309,29 @@ nav svg{
       border: 4px solid rgb(255, 255, 255);
   }
 }
+
+
+
+.service1, .service2, .service3 {
+  content: '';
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('/assets/images/service1.jpg');
+  object-fit:fill;
+  --tw-brightness: brightness(.75);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.service2 {
+  background-image: url('/assets/images/service2.jpg');
+}
+
+.service3 {
+  background-image: url('/assets/images/service3.jpg');
+}
