@@ -322,16 +322,26 @@ nav svg{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('/assets/images/service1.jpg');
-  object-fit:fill;
-  --tw-brightness: brightness(.75);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+  background-image: url('/assets/images/service1.png');
+  object-fit: cover;
 }
 
 .service2 {
-  background-image: url('/assets/images/service2.jpg');
+  background-image: url('/assets/images/service2.png');
 }
 
 .service3 {
-  background-image: url('/assets/images/service3.jpg');
+  background-image: url('/assets/images/service3.png');
+}
+
+.service4 {
+  background-image: url('/assets/images/service4.png');
+}
+
+.service5 {
+  background-image: url('/assets/images/service5.png');
+}
+
+.service6 {
+  background-image: url('/assets/images/service6.png');
 }

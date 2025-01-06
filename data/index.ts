@@ -1,50 +1,55 @@
 export const navItems = [
     { name: "HOME", link: "/#features" },
-    { name: "PRICING", link: "/course" },
     { name: "TESTIMONIALS", link: "/#testimonials" },
-    { name: "BRANDS", link: "/#faq" },
-    { name: "GALLERY", link: "/#faq" },
+    { name: "PRICING", link: "/course" },,
 ];
 
 export const resources = [
     {
       id: 1,
-      title: 'Sump pump services',
+      title: 'Photography',
       link: '/#services'
     },
     {
       id: 2,
-      title: 'Crack Repairs',
+      title: 'Videography',
       link: '/#services'
     },
     {
-      id:3,
-      title: 'Block Foundation walls',
+      id: 3,
+      title: 'Graphic design',
       link: '/#services'
     },
     {
       id: 4,
-      title: 'ICF Foundation walls',
+      title: 'Premium content creation',
       link: '/#services'
     },
     {
       id: 5,
-      title: 'Excavations',
+      title: 'Website design & development',
       link: '/#services'
     },
     {
       id: 6,
-      title: 'Footings',
-      link: '/#services'
-    },
-    {
-      id: 7,
-      title: 'Underpinning lowering',
-      link: '/#services'
-    },
-    {
-      id: 8,
-      title: 'Block Foundation walls',
+      title: 'Social media management',
       link: '/#services'
     },
   ]
+
+  export const resources2 = [
+    {
+      id: 1,
+      title: 'Sports',
+      link: '/#services'
+    },
+    {
+      id: 2,
+      title: 'Auto',
+      link: '/#services'
+    },
+    {
+      id: 3,
+      title: 'Resteraunts',
+      link: '/#services'
+    }]
