@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import React from 'react'
-import tech2 from '../public/assets/images/tech3.png'
 import { Button } from './ui/button'
 import { Check, ChevronRight } from 'lucide-react'
 
