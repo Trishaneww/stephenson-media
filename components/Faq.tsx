@@ -15,11 +15,11 @@ const Faq = () => {
             <h1 className="text-slate-950  text-3xl md:text-3xl lg:text-5xl font-bold">Frequently asked questions</h1>
         </section>
 
-        <div className="flex justify-center gap-6 w-full p-4 text-slate-950 text-base md:text-lg lg:text-xl">
+        <div className="flex justify-center gap-6 w-full p-4 text-slate-950 text-base">
             <Accordion type="single" collapsible className="flex flex-col gap-4 md:w-3/5 xl:w-3/5">
                 {faqData.map((accordion:any, idx:number) => (
                     <AccordionItem value={`item-${idx}`} className="border-none p-4 rounded-2xl" key={idx}>
-                    <AccordionTrigger className="text-base md:text-lg lg:text-xl text-left border-b-[1px] border-slate-950 font-semibold">{accordion.item}</AccordionTrigger>
+                    <AccordionTrigger className="text-base lg:text-lg text-left border-b-[1px] border-slate-950 font-semibold">{accordion.item}</AccordionTrigger>
                         <AccordionContent className="text-base lg:text-lg mt-6">
                             {accordion.content}
                         </AccordionContent>

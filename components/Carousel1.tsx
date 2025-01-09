@@ -5,9 +5,9 @@ import Image from "next/image";
 
 const VerticalCarousel = () => {
   const images = [
-    "assets/images/carousel.jpg",
+    "assets/images/reel2.png",
     "assets/images/reel1.png",
-    "assets/images/carousel.jpg",
+    "assets/images/reel3.png",
   ];
 
   return (
@@ -15,7 +15,7 @@ const VerticalCarousel = () => {
 
     <section className="flex flex-col gap-4 w-[50%] mt-12">
       <p className="text-7xl font-semibold w-[80%]">MAKE YOUR IMPACT FUND WORK HARDER</p>
-      <p className="w-[70%] font-semibold">SEQL empowers corporations, brands,and organizations to impact social issues in youth sports by leveraging innovation and technology.</p>
+      <p className="w-[70%] font-semibold mt-4">SEQL empowers corporations, brands,and organizations to impact social issues in youth sports by leveraging innovation and technology.</p>
       <Button className="w-[220px] h-[55px] text-base font-semibold">Get started <ChevronRight /></Button>
       <div className="flex flex-col  justify-start gap-2">
         <p className="font-semibold">POWERED BY</p>
