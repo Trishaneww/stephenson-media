@@ -76,10 +76,11 @@ const Footer = () => {
                 <div className="flex gap-4 h-[185px]">
                     <p>6</p>
                     <div className="flex flex-col">
-                        <p className="text-lg lg:text-2xl mb-2 font-semibold">Work</p>
+                        <p className="text-lg lg:text-2xl mb-2 font-semibold">Industries</p>
                         <ul className="text-slate-300 text-sm">
-                            <li>HYPE Media</li>
-                            <li>LUX media</li>
+                            <li>Sports</li>
+                            <li>Auto</li>
+                            <li>Resteraunts</li>
                         </ul>
                     </div>
                 </div>
