@@ -1,7 +1,6 @@
 "use client"
-import React, { useState } from 'react'
+import React from 'react'
 import Link from 'next/link'
-import { Button } from './ui/button'
 import { navItems } from '@/data'
 import { cn } from '@/lib/utils'
 import '../styles/global.scss';
@@ -12,12 +11,7 @@ import { NavDropDown } from './Navdropdown'
 import { NavDropDown2 } from './Navbardropdown2'
 
 const Navbar = () => {
-  const [showMenu, setShowMenu] = useState(false);
-
-  const switch_menu = () => {
-    setShowMenu(!showMenu)
-  }
-
+ 
   return (
     <div className="flex lg:flex-col w-full justify-between lg:justify-center items-center pt-8 navbar z-50 gap-8 bg-transparent px-4">
       <Link href='/' className={cn(
@@ -57,15 +51,6 @@ const Navbar = () => {
           <span className="!cursor-pointer text-sm font-bold tracking-wide">CONTACT</span>
         </Link>
       </div>
-    {/* <div className="hidden lg:flex gap-2 justify-center items-center">
-        <Link href="/login">
-          <Button className="w-[100px] h-[40px] hover:bg-transparent text-slate-50 bg-transparent p-2 text-base">Login</Button>
-        </Link>
-
-        <Link href="/signup">
-          <Button className="w-[120px] h-[40px] bg-white hover:bg-[#a9c0ff] hover:text-slate-950 rounded-lg text-base text-slate-950">Sign Up<FaArrowRightLong className="ml-2"/></Button>
-        </Link>
-    </div> */}
 
 
 <nav className="lg:hidden bg-transparent">
@@ -79,11 +64,11 @@ const Navbar = () => {
         <X size={30}/>
        
       </label>
-      <a href="/#faq">FAQ</a> 
-      <a href="/portfolio">Portfolio</a>
-      <a href="/services">Services</a>
-      <a href="/pricing">Pricing</a>
-      <a href="/pricing">Contact</a>
+      <Link href="/#faq">FAQ</Link> 
+      <Link href="/portfolio">Portfolio</Link>
+      <Link href="/services">Services</Link>
+      <Link href="/pricing">Pricing</Link>
+      <Link href="/pricing">Contact</Link>
     </div>
   </nav>
   </div>

@@ -9,7 +9,6 @@ import Reels from "@/components/Reels";
 import Services from "@/components/Services";
 import Technologies from "@/components/Technologies";
 import Testimonials from "@/components/Testimonials";
-import Testimonials2 from "@/components/Testimonials2";
 
 
 

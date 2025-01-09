@@ -12,7 +12,7 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
-import { resources, resources2 } from "@/data"
+import { resources2 } from "@/data"
  
 
  

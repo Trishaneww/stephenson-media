@@ -5,9 +5,9 @@ import Image from "next/image";
 
 const VerticalCarousel = () => {
   const images = [
-    "assets/images/reel2.png",
-    "assets/images/reel1.png",
-    "assets/images/reel3.png",
+    "/assets/images/reel2.png",
+    "/assets/images/reel1.png",
+    "/assets/images/reel3.png",
   ];
 
   return (
@@ -35,7 +35,9 @@ const VerticalCarousel = () => {
       <div className="flex flex-col gap-2 animate-scroll-up">
         {images.concat(images).map((src, index) => (
           <div key={index} className="w-full flex-shrink-0">
-            <img
+            <Image
+              width={1000}
+              height={1000}
               src={src}
               alt={`Carousel ${index + 1}`}
               className="w-full h-full object-cover rounded-lg"
@@ -46,7 +48,9 @@ const VerticalCarousel = () => {
       <div className="flex flex-col gap-2 animate-scroll-up mt-6">
         {images.concat(images).map((src, index) => (
           <div key={index} className="w-full flex-shrink-0">
-            <img
+            <Image
+              width={1000}
+              height={1000}
               src={src}
               alt={`Carousel ${index + 1}`}
               className="w-full h-full object-cover rounded-lg"
@@ -60,7 +64,9 @@ const VerticalCarousel = () => {
       <div className="flex flex-col gap-2 animate-scroll-down">
         {images.concat(images).map((src, index) => (
           <div key={index} className="w-full flex-shrink-0">
-            <img
+            <Image
+              width={1000}
+              height={1000}
               src={src}
               alt={`Carousel ${index + 1}`}
               className="w-full h-full object-cover rounded-lg"
@@ -71,7 +77,9 @@ const VerticalCarousel = () => {
       <div className="flex flex-col gap-2 animate-scroll-down mt-6">
         {images.concat(images).map((src, index) => (
           <div key={index} className="w-full flex-shrink-0">
-            <img
+            <Image
+              width={1000}
+              height={1000}
               src={src}
               alt={`Carousel ${index + 1}`}
               className="w-full h-full object-cover rounded-lg"

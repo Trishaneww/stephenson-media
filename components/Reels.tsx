@@ -1,4 +1,4 @@
-import { ArrowRight, ArrowUpRight } from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 import Image from 'next/image'
 import React from 'react'
 import { Button } from './ui/button'
@@ -7,7 +7,7 @@ const Reels = () => {
   return (
     <div className="flex w-full justify-center gap-4 mb-20">
         <div className="flex flex-col gap-2">
-            <div className="flex flex-col justify-end overflow-hidden h-[600px] w-[520px] group  pt-6 relative bg-red-900">
+            <div className="flex flex-col justify-end overflow-hidden h-[600px] w-[520px] group  pt-6 relative">
                 <Image
                     width={1000}
                     height={1000}
@@ -28,7 +28,7 @@ const Reels = () => {
         </div>
 
         <div className="flex flex-col gap-2">
-            <div className="flex flex-col justify-end overflow-hidden h-[600px] w-[520px] group  pt-6 relative bg-red-900">
+            <div className="flex flex-col justify-end overflow-hidden h-[600px] w-[520px] group  pt-6 relative">
                 <Image
                     width={1000}
                     height={1000}
@@ -49,7 +49,7 @@ const Reels = () => {
         </div>
 
         <div className="flex flex-col gap-2">
-            <div className="flex flex-col justify-end overflow-hidden h-[600px] w-[520px] group  pt-6 relative bg-red-900">
+            <div className="flex flex-col justify-end overflow-hidden h-[600px] w-[520px] group  pt-6 relative">
                 <Image
                     width={1000}
                     height={1000}
