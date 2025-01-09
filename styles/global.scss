@@ -29,7 +29,7 @@
   
   .logos {
     overflow: hidden;
-    padding: 60px 0;
+    padding: 10px 0;
     white-space: nowrap;
     position: relative;
   }
@@ -46,17 +46,17 @@
   
   .logos:before {
     left: 0;
-    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), #FAFAFA);
   }
   
   .logos:after {
     right: 0;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), #FAFAFA);
   }
   
-  .logos:hover .logos-slide {
-    animation-play-state: paused;
-  }
+  // .logos:hover .logos-slide {
+  //   animation-play-state: paused;
+  // }
   
   .logos-slide {
     animation: 35s slide infinite linear;

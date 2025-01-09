@@ -55,6 +55,55 @@ export default {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
+  		},
+  		animation: {
+  			'scroll-up': 'scroll-up 30s linear infinite',
+  			'scroll-down': 'scroll-down 30s linear infinite',
+  			slide: 'slide 1s ease-in-out forwards',
+  			'accordion-down': 'accordion-down 0.2s ease-out',
+  			'accordion-up': 'accordion-up 0.2s ease-out'
+  		},
+  		keyframes: {
+  			'scroll-up': {
+  				'0%': {
+  					transform: 'translateY(0)'
+  				},
+  				'100%': {
+  					transform: 'translateY(-100%)'
+  				}
+  			},
+  			'scroll-down': {
+  				'0%': {
+  					transform: 'translateY(-100%)'
+  				},
+  				'100%': {
+  					transform: 'translateY(0)'
+  				}
+  			},
+  			slide: {
+  				'0%': {
+  					backgroundPosition: '200% 0'
+  				},
+  				'100%': {
+  					backgroundPosition: '0 0'
+  				}
+  			},
+  			'accordion-down': {
+  				from: {
+  					height: '0'
+  				},
+  				to: {
+  					height: 'var(--radix-accordion-content-height)'
+  				}
+  			},
+  			'accordion-up': {
+  				from: {
+  					height: 'var(--radix-accordion-content-height)'
+  				},
+  				to: {
+  					height: '0'
+  				}
+  			}
   		}
   	}
   },

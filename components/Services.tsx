@@ -17,7 +17,7 @@ const Services = () => {
                 <p>Photogaphy</p>
                 <div className="flex justify-center items-center h-[50px] w-[50px] rounded-xl border-[1px] border-slate-50 text-slate-50 hover:bg-slate-50 hover:text-slate-950 delay-200 transition-all"><ArrowUpRight /></div>
             </div>
-            <div className="absolute top-0 w-full h-[340px] bg-[#000000a7] z-0 opacity-0 group-hover:opacity-100 delay-200 transition-opacity"></div>
+            <div className="absolute top-0 w-full h-[340px] bg-[#000000a7] backdrop-blur-[2px] z-0 opacity-0 group-hover:opacity-100 delay-200 transition-opacity"></div>
         </div>
 
         <div className="flex flex-col justify-between overflow-hidden h-[340px] group service2  pt-6 relative">
@@ -30,7 +30,7 @@ const Services = () => {
                 <p>Videography</p>
                 <div className="flex justify-center items-center h-[50px] w-[50px] rounded-xl border-[1px] border-slate-50 text-slate-50 hover:bg-slate-50 hover:text-slate-950 delay-200 transition-all"><ArrowUpRight /></div>
             </div>
-            <div className="absolute top-0 w-full h-[340px] bg-[#000000a7] z-0 opacity-0 group-hover:opacity-100 delay-200 transition-opacity"></div>
+            <div className="absolute top-0 w-full h-[340px] bg-[#000000a7] backdrop-blur-[2px] z-0 opacity-0 group-hover:opacity-100 delay-200 transition-opacity"></div>
         </div>
 
         <div className="flex flex-col justify-between overflow-hidden h-[340px] group service3  pt-6 relative">
@@ -43,7 +43,7 @@ const Services = () => {
                 <p>Premium content creation</p>
                 <div className="flex justify-center items-center h-[50px] w-[50px] rounded-xl border-[1px] border-slate-50 text-slate-50 hover:bg-slate-50 hover:text-slate-950 delay-200 transition-all"><ArrowUpRight /></div>
             </div>
-            <div className="absolute top-0 w-full h-[340px] bg-[#000000a7] z-0 opacity-0 group-hover:opacity-100 delay-200 transition-opacity"></div>
+            <div className="absolute top-0 w-full h-[340px] bg-[#000000a7] backdrop-blur-[2px] z-0 opacity-0 group-hover:opacity-100 delay-200 transition-opacity"></div>
         </div>
 
         <div className="flex flex-col justify-between overflow-hidden h-[340px] group service4  pt-6 relative">
@@ -56,7 +56,7 @@ const Services = () => {
                 <p>Graphic design</p>
                 <div className="flex justify-center items-center h-[50px] w-[50px] rounded-xl border-[1px] border-slate-50 text-slate-50 hover:bg-slate-50 hover:text-slate-950 delay-200 transition-all"><ArrowUpRight /></div>
             </div>
-            <div className="absolute top-0 w-full h-[340px] bg-[#000000a7] z-0 opacity-0 group-hover:opacity-100 delay-200 transition-opacity"></div>
+            <div className="absolute top-0 w-full h-[340px] bg-[#000000a7] backdrop-blur-[2px] z-0 opacity-0 group-hover:opacity-100 delay-200 transition-opacity"></div>
         </div>
 
         <div className="flex flex-col justify-between overflow-hidden h-[340px] group service5  pt-6 relative">
@@ -69,7 +69,7 @@ const Services = () => {
                 <p>Website design & development</p>
                 <div className="flex justify-center items-center h-[50px] w-[50px] rounded-xl border-[1px] border-slate-50 text-slate-50 hover:bg-slate-50 hover:text-slate-950 delay-200 transition-all"><ArrowUpRight /></div>
             </div>
-            <div className="absolute top-0 w-full h-[340px] bg-[#000000a7] z-0 opacity-0 group-hover:opacity-100 delay-200 transition-opacity"></div>
+            <div className="absolute top-0 w-full h-[340px] bg-[#000000a7] backdrop-blur-[2px] z-0 opacity-0 group-hover:opacity-100 delay-200 transition-opacity"></div>
         </div>
 
         <div className="flex flex-col justify-between overflow-hidden h-[340px] group service6  pt-6 relative">
@@ -82,7 +82,7 @@ const Services = () => {
                 <p>Social media management</p>
                 <div className="flex justify-center items-center h-[50px] w-[50px] rounded-xl border-[1px] border-slate-50 text-slate-50 hover:bg-slate-50 hover:text-slate-950 delay-200 transition-all"><ArrowUpRight /></div>
             </div>
-            <div className="absolute top-0 w-full h-[340px] bg-[#000000a7] z-0 opacity-0 group-hover:opacity-100 delay-200 transition-opacity"></div>
+            <div className="absolute top-0 w-full h-[340px] bg-[#000000a7] backdrop-blur-[2px] z-0 opacity-0 group-hover:opacity-100 delay-200 transition-opacity"></div>
         </div>
 
         {/* <div className="flex flex-col overflow-hidden h-[340px] group bg-white px-4 pt-6">
