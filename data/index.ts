@@ -1,7 +1,7 @@
 export const navItems = [
-    { name: "HOME", link: "/#features" },
-    { name: "TECHNOLOGIES", link: "/#testimonials" },
-    { name: "PRICING", link: "/course" },,
+    { name: "HOME", link: "/" },
+    { name: "ABOUT US", link: "/" },
+    { name: "OPTIONS", link: "/" },,
 ];
 
 export const resources = [

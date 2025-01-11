@@ -8,7 +8,7 @@ const Technologies = () => {
     <div className="flex flex-col items-center gap-12 mt-44 mb-20">
 
       {/* <p className="text-2xl lg:text-3xl font-bold text-slate-950 w-[90%] lg:w-[45%] text-center">Extend GitHub Copilot with ready-to-use extensions or build your own using our developer platform with APIs, documentation, and guides.</p> */}
-      <h1 className="text-slate-950  text-3xl md:text-3xl lg:text-5xl font-bold">Elevate your brand with premium marketing</h1>
+      <h1 className="text-slate-950  text-3xl md:text-3xl lg:text-5xl font-bold">Improve your branding & social media marketing</h1>
 
       <section className="flex gap-2">
         <div className="flex flex-col items-center gap-2 w-[350px] rounded-xl bg-white border-[1px] border-slate-200 hover:bg-slate-100  delay-200 transition-all p-4 pt-12">
