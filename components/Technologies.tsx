@@ -156,7 +156,7 @@ const Technologies = () => {
                 height={2000}
                 src="/assets/images/tech4.png"
                 alt="MGM sports book"
-                className="absolute inset-0 w-[99%] h-[99%] m-auto object-cover"
+                className="absolute inset-0 w-[84%] h-[84%] m-auto object-cover"
               />
           </div>
 
@@ -177,9 +177,9 @@ const Technologies = () => {
               <Image
                 width={2000}
                 height={2000}
-                src="/assets/images/tech3.png"
+                src="/assets/images/tech5.png"
                 alt="MGM sports book"
-                className="absolute inset-0 w-[99%] h-[99%] m-auto object-cover"
+                className="absolute inset-0 w-[74%] h-[74%] m-auto object-cover"
               />
           </div>
 
@@ -187,9 +187,9 @@ const Technologies = () => {
               <Image
                 width={2000}
                 height={2000}
-                src="/assets/images/tech4.png"
+                src="/assets/images/tech6.png"
                 alt="MGM sports book"
-                className="absolute inset-0 w-[99%] h-[99%] m-auto object-cover"
+                className="absolute inset-0 w-[84%] h-[84%] m-auto object-cover"
               />
           </div>
 
@@ -197,9 +197,9 @@ const Technologies = () => {
               <Image
                 width={2000}
                 height={2000}
-                src="/assets/images/tech2.png"
+                src="/assets/images/tech7.png"
                 alt="MGM sports book"
-                className="absolute inset-0 w-[68%] h-[68%] m-auto object-cover"
+                className="absolute inset-0 w-[95%] h-[95%] m-auto object-cover"
               />
           </div>
 
@@ -207,9 +207,9 @@ const Technologies = () => {
               <Image
                 width={2000}
                 height={2000}
-                src="/assets/images/tech3.png"
+                src="/assets/images/tech8.png"
                 alt="MGM sports book"
-                className="absolute inset-0 w-[99%] h-[99%] m-auto object-cover"
+                className="absolute inset-0 w-[84%] h-[84%] m-auto object-cover"
               />
           </div>
       </section>   

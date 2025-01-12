@@ -40,7 +40,7 @@ const Home: React.FC = () => {
 
           <section className="flex gap-28 justify-center absolute top-[70%] w-full">
           <div className="flex flex-col z-10 items-center justify-center w-[300px] gap-2">
-            <p className="text-2xl font-bold text-slate-50 tracking wide">HYPE MEDIA.</p>
+            <p className="text-2xl font-bold text-slate-50 tracking wide">HYPE SPORTS</p>
             <p className="text-sm w-[90%] text-center text-slate-50">Follow the journey of NFL prospects as they achieve their lifelong dream of getting Drafted</p>
             <Link href="/hypemedia">
             <Button className="border-[1px] border-slate-50 bg-transparent rounded-full w-[130px] h-[35px] font-bold text-base tracking-wide hover:bg-slate-950">See more</Button>
@@ -48,7 +48,7 @@ const Home: React.FC = () => {
           </div>
 
           <div className="flex flex-col z-20 items-center justify-center w-[300px] gap-2">
-            <p className="text-2xl font-bold text-slate-50 tracking wide">LUX MEDIA.</p>
+            <p className="text-2xl font-bold text-slate-50 tracking wide">LUXE PREMIUM</p>
             <p className="text-sm w-[90%] text-center text-slate-50">Follow the journey of NFL prospects as they achieve their lifelong dream of getting Drafted</p>
             <Link href="/luxmedia">
             <Button className="border-[1px] border-slate-50 bg-transparent rounded-full w-[130px] h-[35px] font-bold text-base tracking-wide hover:bg-slate-950">See more</Button>
@@ -56,7 +56,7 @@ const Home: React.FC = () => {
           </div>
 
           <div className="flex flex-col z-20 items-center justify-center w-[300px] gap-2">
-            <p className="text-2xl font-bold text-slate-50 tracking wide">MACH1.</p>
+            <p className="text-2xl font-bold text-slate-50 tracking wide">MACH 2 AUTO</p>
             <p className="text-sm w-[90%] text-center text-slate-50">Follow the journey of NFL prospects as they achieve their lifelong dream of getting Drafted</p>
             <Link href="/mach1">
             <Button className="border-[1px] border-slate-50 bg-transparent rounded-full w-[130px] h-[35px] font-bold text-base tracking-wide hover:bg-slate-950">See more</Button>
