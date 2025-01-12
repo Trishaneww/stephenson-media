@@ -8,7 +8,7 @@ const Technologies = () => {
     <div className="flex flex-col items-center gap-12 mt-44 mb-20">
 
       {/* <p className="text-2xl lg:text-3xl font-bold text-slate-950 w-[90%] lg:w-[45%] text-center">Extend GitHub Copilot with ready-to-use extensions or build your own using our developer platform with APIs, documentation, and guides.</p> */}
-      <h1 className="text-slate-950  text-3xl md:text-3xl lg:text-5xl font-bold">Elevate your brand with premium marketing</h1>
+      <h1 className="text-slate-950  text-3xl md:text-3xl lg:text-5xl font-bold">Improve your branding & social media marketing</h1>
 
       <section className="flex gap-2">
         <div className="flex flex-col items-center gap-2 w-[350px] rounded-xl bg-white border-[1px] border-slate-200 hover:bg-slate-100  delay-200 transition-all p-4 pt-12">
@@ -156,7 +156,7 @@ const Technologies = () => {
                 height={2000}
                 src="/assets/images/tech4.png"
                 alt="MGM sports book"
-                className="absolute inset-0 w-[99%] h-[99%] m-auto object-cover"
+                className="absolute inset-0 w-[84%] h-[84%] m-auto object-cover"
               />
           </div>
 
@@ -177,9 +177,9 @@ const Technologies = () => {
               <Image
                 width={2000}
                 height={2000}
-                src="/assets/images/tech3.png"
+                src="/assets/images/tech5.png"
                 alt="MGM sports book"
-                className="absolute inset-0 w-[99%] h-[99%] m-auto object-cover"
+                className="absolute inset-0 w-[74%] h-[74%] m-auto object-cover"
               />
           </div>
 
@@ -187,9 +187,9 @@ const Technologies = () => {
               <Image
                 width={2000}
                 height={2000}
-                src="/assets/images/tech4.png"
+                src="/assets/images/tech6.png"
                 alt="MGM sports book"
-                className="absolute inset-0 w-[99%] h-[99%] m-auto object-cover"
+                className="absolute inset-0 w-[84%] h-[84%] m-auto object-cover"
               />
           </div>
 
@@ -197,9 +197,9 @@ const Technologies = () => {
               <Image
                 width={2000}
                 height={2000}
-                src="/assets/images/tech2.png"
+                src="/assets/images/tech7.png"
                 alt="MGM sports book"
-                className="absolute inset-0 w-[68%] h-[68%] m-auto object-cover"
+                className="absolute inset-0 w-[95%] h-[95%] m-auto object-cover"
               />
           </div>
 
@@ -207,9 +207,9 @@ const Technologies = () => {
               <Image
                 width={2000}
                 height={2000}
-                src="/assets/images/tech3.png"
+                src="/assets/images/tech8.png"
                 alt="MGM sports book"
-                className="absolute inset-0 w-[99%] h-[99%] m-auto object-cover"
+                className="absolute inset-0 w-[84%] h-[84%] m-auto object-cover"
               />
           </div>
       </section>   

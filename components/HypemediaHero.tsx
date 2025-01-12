@@ -4,7 +4,7 @@ const HypemediaHero = () => {
   return (
     <div className="h-[94vh] flex flex-col justify-center items-center">
     <div className='z-20 -mt-64 font-semibold flex flex-col gap-2 justify-center items-center'>
-      <h1 className="text-8xl z-20 text-slate-50 font-semibold">HYPEMEDIA.</h1>
+      <h1 className="text-8xl z-20 text-slate-50 font-semibold">HYPE SPORTS</h1>
       <h1 className="text-xl z-20 text-slate-50 font-semibold">POWERED BY STEPHENSON MEDIA</h1>
     </div>    
     

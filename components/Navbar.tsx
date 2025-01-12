@@ -43,12 +43,12 @@ const Navbar = () => {
     <NavDropDown2 />
     <NavDropDown />
         <Link 
-          href='/'
+          href='/contact'
           className={cn(
             "relative dark:text-slate-50 items-center hidden lg:flex space-x-1 text-slate-50 hover:text-[#b2b2b2]"
           )}
         >
-          <span className="!cursor-pointer text-sm font-bold tracking-wide">CONTACT</span>
+          <span className="!cursor-pointer text-sm font-bold tracking-wide">GET STARTED</span>
         </Link>
       </div>
 

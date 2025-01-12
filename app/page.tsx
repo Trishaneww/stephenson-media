@@ -7,6 +7,7 @@ import Home from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Reels from "@/components/Reels";
 import Services from "@/components/Services";
+import Stats from "@/components/Stats";
 import Technologies from "@/components/Technologies";
 import Testimonials from "@/components/Testimonials";
 
@@ -21,6 +22,7 @@ const Website= () => {
       <Body />
       {/* <Testimonials2 /> */}
       <Reels />
+      <Stats />
       <Testimonials />
       <Technologies />
       <Faq />
