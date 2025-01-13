@@ -11,7 +11,7 @@ const page = () => {
     <Navbar />
     <MachHero />
     <LogoCarousel />
-    <VerticalCarousel />
+    {/* <VerticalCarousel /> */}
     <Footer />
 </div>
   )

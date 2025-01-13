@@ -86,21 +86,22 @@ const Footer = () => {
             </div>
         </section>
 
-        <section className="relative w-full lg:w-[60%] lg:-top-16">
-            <video autoPlay loop muted className="w-full h-full">
+        <section className="relative w-full lg:w-[50%] lg:-top-16">
+            {/* <video autoPlay loop muted className="w-full h-full">
                 <source src="/assets/videos/homepage.mp4" type="video/mp4" />Your browser does not support the video tag.
-            </video>
+            </video> */}
 
-            <div className="w-[105%] absolute top-0 -left-2 h-full">
+            <div className="w-[100%] absolute top-0 -left-2 mt-12 h-full">
                   <Image
             height={2000}
             width={2000}
-            src="/assets/images/logo3.png"
+            src="/assets/images/logo.png"
             alt="stephenson media logo" 
-            className="h-full w-full"/>
+            // className="h-full w-full"
+                />
             </div>
-
         </section>
+
         </div>
         <div className="h-[2px] w-full bg-slate-300"></div>
     </div>

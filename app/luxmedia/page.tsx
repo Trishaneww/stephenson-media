@@ -11,7 +11,7 @@ const page = () => {
         <Navbar />
         <LuxmediaHero />
         <LogoCarousel />
-        <VerticalCarousel />
+        {/* <VerticalCarousel /> */}
         <Footer />
    </div>
   )
