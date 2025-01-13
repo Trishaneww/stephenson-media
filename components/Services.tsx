@@ -1,11 +1,43 @@
-import React from 'react'
+"use client"
+import { Input } from './ui/input'
+import React, { useState } from 'react'
+import { Button } from './ui/button'
+import { useToast } from './hooks/use-toast'
+import emailjs from '@emailjs/browser';
 import '../styles/global.scss';
 import { ArrowUpRight } from 'lucide-react';
 
 const Services = () => {
+// const  [error, setError] = useState("");
+
+//   const { toast } = useToast()
+
+//   const sendEmail = (e:any) => {
+//     e.preventDefault();
+
+//     try {
+//       if (e.target.email.value === "") {
+//           setError("Email is required")
+//       } else {
+
+//           emailjs.sendForm('service_luvg8op', 'template_oirz684' , e.target , '1MxDwCSvQF6Leln4f');
+//            e.target.reset()
+//            setError("")
+
+//           toast({
+//               title: "Email Sent",
+//               description: "We will get back to you shortly",
+//     })
+
+//       }
+//     } catch (err) {
+//       console.log(err)
+//       // top-[80%] left-[50%] translate-x-[-50%] translate-y-[-50%]
+//     }
+//   }
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 lg:-mt-44 w-full">
-    <div className="flex flex-col justify-between overflow-hidden h-[340px] group service1  pt-6 relative">
+        <div className="flex flex-col justify-between overflow-hidden h-[340px] group service1  pt-6 relative">
             <div className="text-slate-50 font-extrabold text-2xl md:text-3xl lg:text-4xl mt-6 ml-6">
                 <p>01</p>
                 <p>PHOTOGRAPHY</p>

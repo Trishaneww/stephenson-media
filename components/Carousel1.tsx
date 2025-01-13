@@ -5,7 +5,7 @@ const VerticalCarousel = () => {
   const images = [
     "/assets/images/reel2.png",
     "/assets/images/reel1.png",
-    "/assets/images/reel3.png",
+    "/assets/images/reel4.png",
   ];
 
   return (
