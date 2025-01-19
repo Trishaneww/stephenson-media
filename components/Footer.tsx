@@ -91,7 +91,7 @@ const Footer = () => {
                 <source src="/assets/videos/homepage.mp4" type="video/mp4" />Your browser does not support the video tag.
             </video> */}
 
-            <div className="w-[100%] absolute top-0 -left-2 mt-12 h-full">
+            <div className="lg:mt-20">
                   <Image
             height={2000}
             width={2000}

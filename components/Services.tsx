@@ -6,6 +6,7 @@ import { useToast } from './hooks/use-toast'
 import emailjs from '@emailjs/browser';
 import '../styles/global.scss';
 import { ArrowUpRight } from 'lucide-react';
+import Link from 'next/link'
 
 const Services = () => {
 // const  [error, setError] = useState("");
@@ -45,7 +46,7 @@ const Services = () => {
 
             <div className="flex justify-end items-center gap-4 relative text-slate-50 font-bold mb-4 text-lg z-20 opacity-0 group-hover:opacity-100 delay-200 transition-opacity cursor-pointer mr-6">
                 <p>Photogaphy</p>
-                <div className="flex justify-center items-center h-[50px] w-[50px] rounded-xl border-[1px] border-slate-50 text-slate-50 hover:bg-slate-50 hover:text-slate-950 delay-200 transition-all"><ArrowUpRight /></div>
+                <Link href="/photography" className="flex justify-center items-center h-[50px] w-[50px] rounded-xl border-[1px] border-slate-50 text-slate-50 hover:bg-slate-50 hover:text-slate-950 delay-200 transition-all"><ArrowUpRight /></Link>
             </div>
             <div className="absolute top-0 w-full h-[340px] bg-[#000000a7] backdrop-blur-[2px] z-0 opacity-0 group-hover:opacity-100 delay-200 transition-opacity"></div>
         </div>

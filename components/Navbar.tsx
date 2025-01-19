@@ -17,7 +17,7 @@ const Navbar = () => {
       <Link href='/' className={cn(
             "relative dark:text-slate-50 items-center flex space-x-1 text-slate-50  hover:text-[#b2b2b2] w-[150px]"
           )}>
-            <div className="w-[60%] lg:w-[100%]">
+            <div className="w-[50%] lg:w-[100%]">
             <Image 
               alt="stephenson media logo"
               src={logo}
@@ -53,14 +53,14 @@ const Navbar = () => {
       </div>
 
 
-<nav className="lg:hidden bg-transparent">
+  <nav className="lg:hidden bg-transparent">
     <input type="checkbox" id="sidebar-active" />
     <label htmlFor="sidebar-active" className="open-sidebar-button text-slate-50 mt-2">
       <Menu  size={30}/>
     </label>
     <label id="overlay" htmlFor="sidebar-active"></label>
-    <div className="links-container bg-[#00030F] text-slate-50">
-      <label htmlFor="sidebar-active" className="close-sidebar-button relative left-56 text-slate-50">
+    <div className="links-container ">
+      <label htmlFor="sidebar-active" className="close-sidebar-button relative left-56 text-slate-950">
         <X size={30}/>
        
       </label>
