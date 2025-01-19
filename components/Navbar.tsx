@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import Link from 'next/link'
-import { navItems } from '@/data'
+import { faqData, navItems, resources, resources2 } from '@/data'
 import { cn } from '@/lib/utils'
 import '../styles/global.scss';
 import Image from 'next/image'
@@ -9,6 +9,12 @@ import logo from '../public/assets/images/logo2.png'
 import { Menu, X } from 'lucide-react'
 import { NavDropDown } from './Navdropdown'
 import { NavDropDown2 } from './Navbardropdown2'
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
 
 const Navbar = () => {
  
@@ -64,11 +70,38 @@ const Navbar = () => {
         <X size={30}/>
        
       </label>
-      <Link href="/#faq">FAQ</Link> 
-      <Link href="/portfolio">Portfolio</Link>
-      <Link href="/services">Services</Link>
-      <Link href="/pricing">Pricing</Link>
-      <Link href="/pricing">Contact</Link>
+      <Link href="/">HOME</Link> 
+      <Link href="/">ABOUT US</Link>
+      <Link href="/#options">OPTIONS</Link>
+
+      <div className="flex w-full p-4 text-slate-950 text-base -mt-8">
+          <Accordion type="single" collapsible className="flex flex-col gap-2">
+                    <AccordionItem value={`industries`} className="border-none p-4 rounded-2xl">
+                    <AccordionTrigger className="text-base lg:text-lg text-left font-normal -ml-[1.5px]">INDUSTRIES</AccordionTrigger>
+                        <AccordionContent className="text-base lg:text-lg">
+                        {resources2.map((accordion:any, idx:number) => (
+                          <Link href={accordion.link} className="text-slate-950 -mt-4" key={idx}>{accordion.title}</Link>
+                        ))}
+                        </AccordionContent>
+                    </AccordionItem>
+        </Accordion>
+      </div>
+    
+      <div className="flex w-full p-4 text-slate-950 text-base -mt-16">
+          <Accordion type="single" collapsible className="flex flex-col gap-2">
+                    <AccordionItem value={`services`} className="border-none p-4 rounded-2xl">
+                    <AccordionTrigger className="text-base lg:text-lg text-left font-normal -ml-[1.5px]">SERVICES</AccordionTrigger>
+                        <AccordionContent className="text-base lg:text-lg">
+                        {resources.map((accordion:any, idx:number) => (
+                          <Link href={accordion.link} className="text-slate-950 -mt-4" key={idx}>{accordion.title}</Link>
+                        ))}
+                        </AccordionContent>
+                    </AccordionItem>
+        </Accordion>
+      </div>
+
+      <Link href="/contact" className="-mt-8">CONTACT</Link>
+
     </div>
   </nav>
   </div>
