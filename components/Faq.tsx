@@ -10,9 +10,9 @@ import { faqData } from '@/data'
 
 const Faq = () => {
   return (
-    <div className="flex flex-col justify-center items-center mt-12 lg:mt-20 scroll-smooth  py-24  pb-40">
+    <div className="flex flex-col justify-center items-center mt-2 lg:mt-20 scroll-smooth  py-24  pb-40">
         <section className="flex flex-col gap-6 items-center mb-10 text-center xl:text-left p-2">
-            <h1 className="text-slate-950  text-3xl md:text-3xl lg:text-5xl font-bold">Frequently asked questions</h1>
+            <h1 className="text-slate-950  text-3xl md:text-3xl lg:text-5xl font-semibold">Frequently asked questions</h1>
         </section>
 
         <div className="flex justify-center gap-6 w-full p-4 text-slate-950 text-base">

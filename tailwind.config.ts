@@ -59,6 +59,9 @@ export default {
   		animation: {
   			'scroll-up': 'scroll-up 30s linear infinite',
   			'scroll-down': 'scroll-down 30s linear infinite',
+			'scroll-right': 'scroll-right 20s linear infinite',
+			'scroll-right-mobile': 'scroll-right-mobile 2s linear infinite',
+			'scroll-left': 'scroll-left 20s linear infinite',
   			slide: 'slide 1s ease-in-out forwards',
   			'accordion-down': 'accordion-down 0.2s ease-out',
   			'accordion-up': 'accordion-up 0.2s ease-out'
@@ -70,6 +73,22 @@ export default {
   				},
   				'100%': {
   					transform: 'translateY(-100%)'
+  				}
+  			},
+			'scroll-right': {
+  				'0%': {
+  					transform: 'translateX(0)'
+  				},
+  				'100%': {
+  					transform: 'translateX(-100%)'
+  				}
+  			},
+			'scroll-left': {
+  				'0%': {
+  					transform: 'translateX(-100%)'
+  				},
+  				'100%': {
+  					transform: 'translateX(0)'
   				}
   			},
   			'scroll-down': {

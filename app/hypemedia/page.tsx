@@ -1,9 +1,13 @@
 import Carousel from '@/components/Carousel1'
+import ContactForm from '@/components/ContactForm'
 import Footer from '@/components/Footer'
 import HypemediaHero from '@/components/HypemediaHero'
 import Hypesubpage from '@/components/Hypesubpage'
 import LogoCarousel from '@/components/LogoCarousel'
 import Navbar from '@/components/Navbar'
+import Reels from '@/components/Reels'
+import Stats from '@/components/Stats'
+import Stats2 from '@/components/stats2'
 import React from 'react'
 
 const page = () => {
@@ -13,7 +17,12 @@ const page = () => {
         <HypemediaHero />
         <LogoCarousel />
         <Hypesubpage />
+        <Stats2 />
+        <Reels />
         <Carousel />
+        <div className="py-6 px-6 flex justify-center items-center">
+          <ContactForm />
+        </div>
         <Footer />
    </div>
   )

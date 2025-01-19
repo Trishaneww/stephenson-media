@@ -20,7 +20,7 @@ const Preloader: React.FC<PreloaderProps> = ({ onComplete }) => {
 
   return (
     <motion.div
-      className="fixed inset-0 flex items-center justify-center bg-white z-50 overflow-hidden"
+      className="fixed inset-0 flex items-center justify-center bg-[#FAFAFA] z-50 overflow-hidden"
       initial={{ opacity: 1 }}
       animate={{ opacity: 0 }}
       transition={{ duration: 1, delay: 4.5 }}
@@ -49,7 +49,7 @@ const Preloader: React.FC<PreloaderProps> = ({ onComplete }) => {
 
       {/* Main Logo Animation */}
       <motion.div
-        className="text-4xl font-bold text-gray-800 z-10 flex space-x-4"
+        className="text-base lg:text-4xl font-bold text-gray-800 z-10 flex space-x-2 lg:space-x-4"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, ease: 'easeOut', delay: 2.5 }}

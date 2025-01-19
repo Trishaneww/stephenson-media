@@ -8,32 +8,32 @@ export const resources = [
     {
       id: 1,
       title: 'Photography',
-      link: '/#services'
+      link: '/photography'
     },
     {
       id: 2,
       title: 'Videography',
-      link: '/#services'
+      link: '/photography'
     },
     {
       id: 3,
       title: 'Graphic design',
-      link: '/#services'
+      link: '/photography'
     },
     {
       id: 4,
       title: 'Premium content creation',
-      link: '/#services'
+      link: '/photography'
     },
     {
       id: 5,
       title: 'Website design & development',
-      link: '/#services'
+      link: '/photography'
     },
     {
       id: 6,
       title: 'Social media management',
-      link: '/#services'
+      link: '/photography'
     },
   ]
 
