@@ -245,15 +245,11 @@ const casestudy1 = () => {
 
           <section className="flex flex-col items-center gap-6  mt-32 mb-20">
             <p className="font-semibold text-4xl">NEXT CASE STUDY</p>
-
             <div className="relative w-[300px] h-[65px] rounded-lg border-[1px] border-gray-200 overflow-hidden group z-10">
                 <div className="absolute top-0 h-full w-full group-hover:ml-56 duration-700 transition-all ease-in-out bg-white border-[1px] border-gray-200 rounded-lg z-20 flex justify-center items-center font-semibold">JR NBA CAMP</div>
                 <Link href="/" className="absolute top-0 h-full w-full bg-slate-950 rounded-lg text-slate-50 flex justify-start items-center pl-12 font-semibold">VIEW NOW</Link>
-
             </div>
           </section>
-
-
         <Footer />
         <Footer2 />
 

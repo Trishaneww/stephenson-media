@@ -12,7 +12,7 @@ const VerticalCarousel = () => {
   return (
     <div className="flex flex-col justify-center items-center gap-2 text-slate-950">
 
-      <div className="lg:w-[75%] flex flex-col lg:flex-row justify-between gap-6 px-6 pb-12 mt-12">
+      {/* <div className="lg:w-[75%] flex flex-col lg:flex-row justify-between gap-6 px-6 pb-12 mt-12">
       <section className="flex flex-col gap-4 lg:w-[55%] mt-12">
         <p className="text-base font-semibold">SHOWCASE YOUR TEAMS & SKILLS</p>
         <p className="text-3xl lg:text-5xl xl:text-7xl font-semibold secondary">VIDEOGRAPHY</p>
@@ -20,7 +20,6 @@ const VerticalCarousel = () => {
       </section>
 
       <section className="relative h-[50vh] lg:w-[40%] border-[1px] border-gray-200 rounded-lg overflow-hidden flex gap-2">
-        {/* Scrolling content */}
         <div className="flex flex-col">
         <div className="flex flex-col gap-2 animate-scroll-up">
           {images.concat(images).map((src, index) => (
@@ -79,7 +78,7 @@ const VerticalCarousel = () => {
         </div>
         </div>
       </section >
-      </div>
+      </div> */}
 
       <div className="lg:w-[75%] flex flex-col lg:flex-row-reverse justify-between gap-6 px-6 pb-12 mt-12">
         <section className="flex flex-col gap-4 lg:w-[55%] mt-12">
@@ -288,7 +287,7 @@ const VerticalCarousel = () => {
         </section >
       </div>
 
-      <div className="lg:w-[75%] flex flex-col lg:flex-row justify-between gap-6 px-6 pb-12 mt-12">
+      {/* <div className="lg:w-[75%] flex flex-col lg:flex-row justify-between gap-6 px-6 pb-12 mt-12">
         <section className="flex flex-col gap-4 lg:w-[55%] mt-12">
           <p className="text-base font-semibold">WE DO IT ALL FOR YOU</p>
           <p className="text-3xl lg:text-5xl xl:text-7xl font-semibold  secondary">SOCIAL MEDIA MANAGEMENT</p>
@@ -296,7 +295,6 @@ const VerticalCarousel = () => {
         </section>
 
         <section className="relative h-[50vh] lg:w-[40%] border-[1px] border-gray-200 rounded-lg overflow-hidden flex gap-2">
-          {/* Scrolling content */}
           <div className="flex flex-col">
           <div className="flex flex-col gap-2 animate-scroll-up">
             {images.concat(images).map((src, index) => (
@@ -355,7 +353,7 @@ const VerticalCarousel = () => {
           </div>
           </div>
         </section >
-      </div>
+      </div> */}
     </div>
   );
 };
