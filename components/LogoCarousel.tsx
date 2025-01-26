@@ -5,8 +5,8 @@ import Image from 'next/image';
 const LogoCarousel = () => {
 
   return (
-    <div className="relative w-full opacity-60 md:-top-10 xl:-mt-36">
-    <div className="logos flex gap-12">
+    <div className="relative w-full opacity-80">
+    <div className="logos flex items-center gap-12 h-[130px]">
       <div className="logos-slide flex gap-16">
           <div className="flex items-center justify-center w-[190px] h-[180px]">
             <Image 

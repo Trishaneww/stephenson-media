@@ -2,13 +2,12 @@
 import ContactForm from '@/components/ContactForm'
 import Footer from '@/components/Footer'
 import Footer2 from '@/components/Footer2'
+import Navbar from '@/components/Navbar'
 import Navbar2 from '@/components/Navbar2'
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { useRef } from 'react';
-
-
-
+import '../../styles/global.scss'
 
 const casestudy1 = () => {
     const images = [
@@ -49,32 +48,43 @@ const casestudy1 = () => {
 
   return (
     <div className="flex flex-col items-center scroll-smooth bg-[#FAFAFA]">
-        <Navbar2 />
+        <Navbar />
 
-        {/* <div className="flex justify-start w-full py-4 px-4">
-            <Link href="/">
-                <Image 
-                width={100}
-                height={100}
-                src="/assets/images/logo4.png"
-                alt="stephenson media logo"
-                />
-            </Link>
-        </div> */}
-
-
-        <section className="flex flex-col w-full px-6 lg:px-48 mb-20 mt-36 gap-2 justify-center items-center">
-            <div className="flex gap-2 items-center justify-center">
+        <div className="h-[94vh] flex flex-col justify-center items-center">
+          <div className='z-20 -mt-64 font-semibold flex flex-col gap-2 justify-center items-center'>
+            <div className="flex gap-2 items-center justify-center text-slate-50">
                 <Image
                     width={50}
                     height={50}
-                    src="/assets/images/blackunderarmour.png"
+                    src="/assets/images/underarmour.png"
                     alt="black under armour logo" 
                 />
                 <p className="text-xl font-semibold">UNDER ARMOUR</p>
             </div>
-            <p className="font-bold text-4xl md:text-6xl lg:text-7xl text-slate-950 text-center">Driving Soccer Engagement Among Latino and African American Youth: adidas' Added Value at Tournaments</p>
+            <p className="font-extrabold text-4xl md:text-6xl lg:text-7xl text-slate-50 text-center w-[70%] secondary ">Driving Soccer Engagement Among Latino and African American Youth</p>
+        </div>    
+        <div className="flex justify-center items-center absolute top-0 overflow-hidden h-[94vh] w-full">
+        <Image
+          width={1000}
+          height={1000}
+          src="/assets/images/casestudy4.png"
+          alt="black under armour logo" 
+          className="absolute top-0 w-full h-full object-cover" 
+        />
+    </div>
 
+      <div className="h-[94vh] w-full bg-[#00000078] absolute top-0">
+
+      </div>
+    </div>
+
+   
+
+    
+
+
+
+        <section className="flex flex-col w-full px-6 lg:px-48 mb-20 gap-2 justify-center items-center -mt-44">
             <section className="flex flex-col lg:flex-row gap-6 mt-8">
                 <Image
                     width={1000}
@@ -103,10 +113,10 @@ const casestudy1 = () => {
             </section>
         </section>
 
-        <div className="flex flex-col lg:w-[75%] gap-4 px-6 mb-36 mt-2">
-            <p className="font-semibold text-2xl lg:text-4xl secondary">OBJECTIVE</p>
+        <div className="flex flex-col lg:w-[75%] gap-4 px-6 mb-20 mt-2">
+            <p className="font-extrabold text-2xl lg:text-4xl secondary">OBJECTIVE</p>
             <p className="">Our approach to social media ensures your brand stays relevant and on-trend in an ever-evolving digital landscape. While it's easier than ever to go viral, cutting through the noise and building a genuinely engaged audience is more challenging than ever. By keeping up with the latest trends and platform updates, we help your business maintain a competitive edge and engage effectively with your followers.</p>
-            <p className="font-semibold text-2xl lg:text-4xl secondary mt-6">CHALLENGES</p>
+            <p className="font-extrabold text-2xl lg:text-4xl secondary mt-6">CHALLENGES</p>
             <p className="">Our approach to social media ensures your brand stays relevant and on-trend in an ever-evolving digital landscape. While it's easier than ever to go viral, cutting through the noise and building a genuinely engaged audience is more challenging than ever. By keeping up with the latest trends and platform updates, we help your business maintain a competitive edge and engage effectively with your followers.</p>
         </div>
 
@@ -114,7 +124,7 @@ const casestudy1 = () => {
 
 
 
-    <section className="flex gap-6 mb-36">
+    <section className="flex gap-6 mb-20">
         <div className="flex flex-col lg:flex-row items-center justify-center gap-12">
             <video
             controls
@@ -245,15 +255,11 @@ const casestudy1 = () => {
 
           <section className="flex flex-col items-center gap-6  mt-32 mb-20">
             <p className="font-semibold text-4xl">NEXT CASE STUDY</p>
-
             <div className="relative w-[300px] h-[65px] rounded-lg border-[1px] border-gray-200 overflow-hidden group z-10">
                 <div className="absolute top-0 h-full w-full group-hover:ml-56 duration-700 transition-all ease-in-out bg-white border-[1px] border-gray-200 rounded-lg z-20 flex justify-center items-center font-semibold">JR NBA CAMP</div>
                 <Link href="/" className="absolute top-0 h-full w-full bg-slate-950 rounded-lg text-slate-50 flex justify-start items-center pl-12 font-semibold">VIEW NOW</Link>
-
             </div>
           </section>
-
-
         <Footer />
         <Footer2 />
 

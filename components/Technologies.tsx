@@ -5,10 +5,10 @@ import { Check, ChevronRight } from 'lucide-react'
 
 const Technologies = () => {
   return (
-    <div className="flex flex-col items-center gap-12 mt-44 mb-20">
+    <div className="flex flex-col items-center gap-12 -mt-4 mb-10">
 
       {/* <p className="text-2xl lg:text-3xl font-bold text-slate-950 w-[90%] lg:w-[45%] text-center">Extend GitHub Copilot with ready-to-use extensions or build your own using our developer platform with APIs, documentation, and guides.</p> */}
-      <h1 className="text-slate-950  text-3xl md:text-3xl lg:text-5xl font-semibold text-center w-[98%]">Improve your branding & social media marketing</h1>
+      {/* <h1 className="text-slate-950  text-3xl md:text-3xl lg:text-5xl font-semibold text-center w-[98%]">Improve your branding & social media marketing</h1>
 
       <section className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-2">
         <div className="flex flex-col items-center gap-2 w-[350px] rounded-xl bg-white border-[1px] border-gray-200 hover:bg-slate-100  delay-200 transition-all p-4 pt-12">
@@ -114,7 +114,7 @@ const Technologies = () => {
           <Button className="h-[50px] w-[84%] text-lg font-semibold mt-8">Get started <ChevronRight /></Button>
           <p className="text-sm w-[80%] text-center">includes up to 2,000 completions and 50 chat requests per month.</p>
         </div>
-      </section>
+      </section> */}
 
 
       <p className="text-lg font-semibold text-center w-[96%]">The technologies we use to bring your vision to life:</p>

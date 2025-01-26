@@ -1,10 +1,11 @@
 import React from 'react'
+import '../styles/global.scss';
 
 const HypemediaHero = () => {
   return (
     <div className="h-[94vh] flex flex-col justify-center items-center">
     <div className='z-20 -mt-64 font-semibold flex flex-col gap-2 justify-center items-center'>
-      <h1 className="text-4xl md:text-6xl lg:text-8xl z-20 text-slate-50 font-semibold text-center">HYPE SPORTS</h1>
+      <h1 className="text-4xl md:text-6xl lg:text-8xl z-20 text-slate-50 font-extrabold text-center secondary">HYPE SPORTS</h1>
       <h1 className="text-base lg:text-xl z-20 text-slate-50 font-semibold">POWERED BY STEPHENSON MEDIA</h1>
     </div>    
     
