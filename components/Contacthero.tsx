@@ -65,16 +65,16 @@ const Contacthero = () => {
       }
     }
   return (
-    <div className="w-full flex flex-col lg:flex-row gap-12 lg:gap-4 bg-[#FAFAFA] lg:h-[100vh] px-4">
+    <div className="w-full flex flex-col lg:flex-row gap-12 lg:gap-4 bg-[#FAFAFA] lg:h-[100vh] px-4 lg:-mt-36">
         <form onSubmit={sendEmail} className="xl:w-[40%] lg:max-h-[940px] flex flex-col gap-2 rounded-2xl px-4 lg:px-10 py-6 pt-6 bg-white border-[1.5px] border-gray-200">
-            <Link href="/">
+            {/* <Link href="/">
                     <Image
                         width={100}
                         height={100}
                         src="/assets/images/logo4.png"
                         alt="Stephenson media logo"
                     />
-            </Link>
+            </Link> */}
             <div className="flex flex-col gap-2 font-semibold mt-6">
                 <h1 className="text-3xl lg:text-4xl">Got ideas? We've got the skills. Lets team up.</h1>
                 <p>Tell us more about yourself and what you've got in mind.</p>

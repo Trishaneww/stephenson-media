@@ -3,13 +3,14 @@ import React from 'react'
 import { Button } from './ui/button'
 import { ArrowRight, ChevronRight, Instagram } from 'lucide-react'
 import Link from 'next/link'
+import '../styles/global.scss';
 
 const Hypesubpage = () => {
   return (
     <div className="flex flex-col items-center justify-center gap-6 px-6 lg:px-12 pb-28">
         <section className="flex flex-col justify-center items-center gap-4 lg:w-[70%] mt-12 text-center">
-            <p className="text-3xl md:text-5xl lg:text-6xl font-semibold lg:w-[75%]">YOU'RE THE BEST SO LET'S SHOW IT</p>
-            <p className="lg:w-[60%] text-lg font-semibold mt-4">HYPE Sports Media is Stephenson Media's sport branch that's dedicated to making fire unique content that showcases athletes, teams and clubs to the fullest! From sick athlete training videos to full custom media packages for whole clubs- we have all your premium sports media needs covered!</p>
+            <p className="text-3xl md:text-5xl lg:text-6xl font-extrabold lg:w-[60%] lg:text-left secondary flex self-start secondary">YOU'RE THE BEST SO LET'S SHOW IT</p>
+            <p className="lg:w-[50%] text-lg  mt-4 lg:text-right flex self-end">HYPE Sports Media is Stephenson Media's sport branch that's dedicated to making fire unique content that showcases athletes, teams and clubs to the fullest! From sick athlete training videos to full custom media packages for whole clubs- we have all your premium sports media needs covered!</p>
             {/* <Button className="w-[220px] h-[55px] text-base font-semibold text-slate-950 bg-slate-50">Get started <ChevronRight /></Button> */}
             {/* <div className="flex flex-col gap-2">
             <p className="font-semibold">POWERED BY</p>

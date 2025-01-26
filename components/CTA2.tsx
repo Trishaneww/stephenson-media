@@ -34,18 +34,7 @@ const CTA2 = () => {
     }
   }
   return (
-    //  <div className="flex flex-col gap-2 justify-center items-center py-20">
-    //         <p className="font-semibold text-5xl">Receive your free quote today</p>
-    //          <form className="flex justify-center gap-4 mt-6" onSubmit={sendEmail}>
-    //           <div className="flex flex-col items-start">
-    //               <Input type="email" placeholder="Email" name="email" className="w-full lg:w-[360px] h-[54px] text-lg border-[1px] bg-transparent border-gray-400 text-slate-50 placeholder:text-slate-950"/>
-    //               <p className="ml-1 text-red-600">{error}</p>
-    //           </div>
-    //           <Button type="submit" className="w-[260px] h-[53px] text-base font-semibold">Submit</Button>
-    //         </form>
-    
-    //     </div>
-    <div className="md:mt-20 lg:mt-56">
+    <div className="">
       <LogoCarousel />
     </div>
   )

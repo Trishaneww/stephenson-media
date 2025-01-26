@@ -80,14 +80,14 @@ const VerticalCarousel = () => {
       </section >
       </div> */}
 
-      <div className="lg:w-[75%] flex flex-col lg:flex-row-reverse justify-between gap-6 px-6 pb-12 mt-12">
-        <section className="flex flex-col gap-4 lg:w-[55%] mt-12">
+      <div className="lg:w-[75%] flex flex-col lg:flex-row-reverse justify-between lg:items-center gap-6 px-6 pb-12 mt-12">
+        <section className="flex flex-col gap-4 lg:w-[55%] mt-12 lg:mt-0">
           <p className="text-base font-semibold">MULTI-USE STUNNING VISUALS</p>
-          <p className="text-3xl lg:text-5xl xl:text-7xl font-semibold secondary">PHOTOGRAPHY</p>
+          <p className="text-3xl lg:text-5xl xl:text-7xl font-extrabold secondary">PHOTOGRAPHY</p>
           <p className="lg:text-lg mt-4">Freeze the moment in time with professional sports photography. From action shots to team portraits, we deliver stunning visuals that highlight every victory and milestone.</p>
         </section>
 
-        <section className="relative h-[50vh] lg:w-[40%] border-[1px] border-gray-200 rounded-lg overflow-hidden flex gap-2">
+        <section className="relative h-[55vh] lg:h-[60vh] lg:w-[40%] border-[1px] border-gray-200 rounded-lg overflow-hidden flex gap-2">
           {/* Scrolling content */}
           <div className="flex flex-col">
           <div className="flex flex-col gap-2 animate-scroll-up">
@@ -149,14 +149,14 @@ const VerticalCarousel = () => {
         </section >
       </div>
 
-      <div className="lg:w-[75%] flex flex-col lg:flex-row justify-between gap-6 px-6 pb-12 mt-12">
-        <section className="flex flex-col gap-4 lg:w-[55%] mt-12">
+      <div className="lg:w-[75%] flex flex-col lg:flex-row justify-between lg:items-center gap-6 px-6 pb-12 mt-12">
+        <section className="flex flex-col gap-4 lg:w-[55%] mt-12 lg:mt-0">
           <p className="text-base font-semibold">EXPOSURE & ENGAGEMENT</p>
-          <p className="text-3xl lg:text-5xl xl:text-7xl font-semibold secondary">CONTENT CREATION</p>
+          <p className="text-3xl lg:text-5xl xl:text-7xl font-extrabold secondary">CONTENT CREATION</p>
           <p className="lg:text-lg mt-4">Tell your story with engaging content. We craft compelling narratives and visuals that bring your brand to life, connecting with your audience across all platforms.</p>
         </section>
 
-        <section className="relative h-[50vh] lg:w-[40%] border-[1px] border-gray-200 rounded-lg overflow-hidden flex gap-2">
+        <section className="relative h-[55vh] lg:h-[60vh] lg:w-[40%] border-[1px] border-gray-200 rounded-lg overflow-hidden flex gap-2">
           {/* Scrolling content */}
           <div className="flex flex-col">
           <div className="flex flex-col gap-2 animate-scroll-up">
@@ -218,14 +218,14 @@ const VerticalCarousel = () => {
         </section >
       </div>
 
-      <div className="lg:w-[75%] flex flex-col lg:flex-row-reverse justify-between gap-6 px-6 pb-12 mt-12">
-        <section className="flex flex-col gap-4 lg:w-[55%] mt-12">
+      <div className="lg:w-[75%] flex flex-col lg:flex-row-reverse justify-between lg:items-center gap-6 px-6 pb-12 mt-12">
+        <section className="flex flex-col gap-4 lg:w-[55%] mt-12 lg:mt-0">
           <p className="text-base font-semibold">KEEP YOUR AUDIENCE UPDATED</p>
-          <p className="text-3xl lg:text-5xl xl:text-7xl font-semibold secondary">GRAPHIC DESIGN</p>
+          <p className="text-3xl lg:text-5xl xl:text-7xl font-extrabold secondary">GRAPHIC DESIGN</p>
           <p className="lg:text-lg mt-4">Stand out from the competition with eye-catching graphics. From custom logos to promotional materials, our designs capture your brand's essence and leave a lasting impression.</p>
         </section>
 
-        <section className="relative h-[50vh] lg:w-[40%] border-[1px] border-gray-200 rounded-lg overflow-hidden flex gap-2">
+        <section className="relative h-[55vh] lg:h-[60vh] lg:w-[40%] border-[1px] border-gray-200 rounded-lg overflow-hidden flex gap-2">
           {/* Scrolling content */}
           <div className="flex flex-col">
           <div className="flex flex-col gap-2 animate-scroll-up">

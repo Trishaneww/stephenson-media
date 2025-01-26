@@ -4,11 +4,16 @@ import CTA2 from "@/components/CTA2";
 import Faq from "@/components/Faq";
 import Footer from "@/components/Footer";
 import Footer2 from "@/components/Footer2";
+import Footer3 from "@/components/Footer3";
+import Gallery from "@/components/Gallery";
 import Home from "@/components/Hero";
+import Industries from "@/components/Industries";
 import Navbar from "@/components/Navbar";
 import Reels from "@/components/Reels";
 import Services from "@/components/Services";
 import Stats from "@/components/Stats";
+import Stats2 from "@/components/stats2";
+import Subpage from "@/components/Subpage";
 import Technologies from "@/components/Technologies";
 import Testimonials from "@/components/Testimonials";
 import { Toaster } from "@/components/ui/toaster";
@@ -24,17 +29,24 @@ const Website= () => {
         <Services />
       </div>
       <CTA2 />
-      <Body />
-      {/* <Testimonials2 /> */}
-      <Stats />
+      {/* <Body /> */}
+      <Subpage />
       <Testimonials />
-      <div id="options">
+      <Gallery />
+      <Technologies />
+      {/* <Testimonials2 /> */}
+      {/* <Stats /> */}
+      <Stats2 />
+      <Industries />
+      {/* <div id="options">
         <Technologies />
-      </div>
+      </div> */}
+
       <div id="faq">
         <Faq />
       </div>
-      <CTA />
+      {/* <CTA /> */}
+      <Footer3 />
       <Footer />
       <Footer2 />
       <Toaster />
